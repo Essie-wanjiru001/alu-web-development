@@ -27,7 +27,6 @@ class BasicAuth(Auth):
 
         return encoded
 
-    
     def decode_base64_authorization_header(self,
                                            base64_authorization_header: str
                                            ) -> str:
@@ -115,3 +114,4 @@ class BasicAuth(Auth):
         user = self.user_object_from_credentials(email, pwd)
 
         return user
+
