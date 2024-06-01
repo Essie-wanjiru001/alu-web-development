@@ -114,4 +114,3 @@ class BasicAuth(Auth):
         user = self.user_object_from_credentials(email, pwd)
 
         return user
-
